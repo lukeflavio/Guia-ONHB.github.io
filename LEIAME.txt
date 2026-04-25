@@ -1,0 +1,41 @@
+════════════════════════════════════════
+  GUIA ONHB — Instruções de edição
+════════════════════════════════════════
+
+ARQUIVOS DO SITE
+─────────────────
+index.html   → Guia geral (visão geral, estratégia, pesquisa, etc.)
+fase1.html   → Orientações da Fase 1
+fase2.html   → Orientações da Fase 2
+fase3.html   → Orientações da Fase 3
+fase4.html   → Orientações da Fase 4
+fase5.html   → Orientações da Fase 5
+final.html   → Orientações da Final
+imagens/     → Coloque aqui suas imagens e infográficos
+
+COMO ADICIONAR CONTEÚDO NAS FASES
+────────────────────────────────────
+Abra cada faseX.html em qualquer editor de texto (bloco de notas, VSCode, etc.)
+e procure pelos comentários <!-- EDITE: ... --> — eles marcam exatamente onde
+substituir o texto de placeholder pelo conteúdo real.
+
+COMO ADICIONAR IMAGENS
+────────────────────────
+1. Crie uma pasta chamada "imagens" na mesma pasta dos arquivos HTML
+2. Coloque sua imagem lá (ex: linha-do-tempo.png)
+3. No HTML, substitua o bloco <div class="img-placeholder">...</div> por:
+   <img src="imagens/linha-do-tempo.png" alt="Linha do tempo" style="width:100%;border-radius:6px;">
+
+COMO ADICIONAR O LINK DO DRIVE
+─────────────────────────────────
+Em index.html, procure por:
+   href="#COLE-O-LINK-DO-DRIVE-AQUI"
+e substitua pelo link real do Drive.
+
+COMO PUBLICAR NO GITHUB PAGES
+──────────────────────────────
+1. Crie um repositório no GitHub (público)
+2. Suba TODOS os arquivos HTML + a pasta imagens/
+3. Vá em Settings → Pages → Source → main → Save
+4. Acesse: https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO
+
