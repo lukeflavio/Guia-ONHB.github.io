@@ -459,12 +459,12 @@
     <p style="font-size:15px;margin-bottom:22px">Materiais visuais de apoio e o acervo de edições anteriores fornecido pela organização.</p>
 
     <p style="font-family:'Playfair Display',serif;color:var(--sepia);font-size:15px;margin-bottom:10px;">Linha do Tempo da História do Brasil</p>
-    <img src="imagens/linha-do-tempo.png" alt="Linha do Tempo da História do Brasil" style="width:100%;border-radius:6px;display:block;position:relative;z-index:10000;cursor:zoom-in;"onclick="document.getElementById('lightbox').style.display='flex'">
+    <img src="imagens/linha-do-tempo.png" alt="Linha do Tempo da História do Brasil" style="width:100%;border-radius:6px;display:block;position:relative;z-index:10000;cursor:zoom-in;"onclick="document.getElementById('lightbox').style.display='flex';document.getElementById('sidebar').style.zIndex='0'"">
     <!-- O lightbox -->
-    <div id="lightbox" onclick="this.style.display='none'"
+    <div id="lightbox" onclick="this.style.display='none';document.getElementById('sidebar').style.zIndex='100'"
      style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.85);z-index:99999;align-items:center;justify-content:center;cursor:zoom-out;padding:24px;">
-  <img src="imagens/linha-do-tempo.png" style="max-width:95%;max-height:95vh;border-radius:6px;box-shadow:0 8px 40px rgba(0,0,0,0.5);">
-</div>
+    <img src="imagens/linha-do-tempo.png" style="max-width:95%;max-height:95vh;border-radius:6px;box-shadow:0 8px 40px rgba(0,0,0,0.5);">
+    </div>
 
     <!-- DESATIVADO TEMPORARIAMENTE
     <div class="img-placeholder" style="margin-top:14px">
