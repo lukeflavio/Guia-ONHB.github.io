@@ -187,7 +187,10 @@
   <div class="nav-divider"></div>
   <div class="nav-group-label">Nesta página</div>
   <ul class="nav-list">
+    <li class="nav-item"><a href="#acesso" class="nav-link"><span class="nav-icon">🔐</span>Como acessar</a></li>
+    <!--
     <li class="nav-item"><a href="#visao-geral" class="nav-link"><span class="nav-icon">📋</span>Visão geral</a></li>
+    -->
     <li class="nav-item"><a href="#conteudo" class="nav-link"><span class="nav-icon">📚</span>Conteúdo cobrado</a></li>
     <li class="nav-item"><a href="#orientacoes" class="nav-link"><span class="nav-icon">🎯</span>Orientações específicas</a></li>
     <li class="nav-item"><a href="#tarefa" class="nav-link"><span class="nav-icon">📝</span>Tarefa da fase</a></li>
@@ -227,14 +230,51 @@
     <a href="final.html">Final</a>
   </nav>
 
+  <!-- COMO ACESSAR -->
+  <section class="section" id="acesso">
+    <div class="section-label">Fase 1 — Primeiros passos</div>
+    <h2 class="section-title">Como acessar a prova</h2>
+ 
+    <p style="font-size:15px;margin-bottom:22px">Após logar no site da ONHB, clique em <strong>18ª ONHB</strong> para acessar a prova da fase.</p>
+ 
+    <div class="alert alert-info">
+      <div class="alert-title">📄 Regulamento e Política de Privacidade</div>
+      No primeiro acesso, será necessário ler e aceitar o Regulamento e a Política de Privacidade. Alguns pontos importantes do resumo:
+    </div>
+ 
+    <ul class="topic-list" style="margin-top:4px">
+      <li>
+        <strong>Comunicação oficial</strong>
+        A organização da ONHB se comunica exclusivamente pelo site e pelo Instagram. Atenção: <em>não é possível contatar a organização pelo Instagram</em> — o canal é de mão única.
+      </li>
+      <li>
+        <strong>Sem rankings, sem revisões</strong>
+        Ao longo da olimpíada não são divulgados rankings parciais e não são feitas revisões de prova.
+      </li>
+      <li>
+        <strong>Sistema de rascunho</strong>
+        O site salva automaticamente as respostas das questões objetivas em rascunho. <strong>O rascunho da tarefa não é salvo automaticamente.</strong> Em qualquer caso, o que está em rascunho não conta como entrega — é necessário fazer a entrega formal até <strong>sábado às 23h59</strong>.
+      </li>
+      <li>
+        <strong>Recibo de entrega</strong>
+        Ao entregar cada questão, um recibo é emitido e pode ser baixado. Recomendo que guardem os recibos numa pasta — é a confirmação de que a entrega foi realizada.
+      </li>
+    </ul>
+ 
+    <div class="alert alert-warning" style="margin-top:8px">
+      <div class="alert-title">⚠️ Primeiro acesso</div>
+      Ao entrar pela primeira vez, explorem o site com calma e se familiarizem com a mecânica da prova antes de começar a responder.
+    </div>
+  </section>
+  
   <!-- VISÃO GERAL DA FASE -->
-  <section class="section" id="visao-geral">
+  <!-- <section class="section" id="visao-geral">
     <div class="section-label">Fase 1 — Visão geral</div>
     <h2 class="section-title">O que esperar desta fase</h2>
 
     <div class="alert alert-phase">
-      <div class="alert-title">📌 Observação do professor</div>
-      <!-- EDITE AQUI: mensagem inicial sobre a fase -->
+      <div class="alert-title">📌 Observação do  professor</div>
+      <!-- EDITE AQUI: mensagem inicial sobre a fase
       Escreva aqui uma orientação geral sobre o caráter desta fase — nível de dificuldade esperado, perfil das questões, algo que chamou atenção em edições anteriores, etc.
     </div>
 
@@ -242,19 +282,19 @@
       <div class="card">
         <span class="card-icon">📊</span>
         <h3>Questões objetivas</h3>
-        <!-- EDITE: número de questões, múltipla escolha, etc -->
+        <!-- EDITE: número de questões, múltipla escolha, etc
         <p>Descreva aqui o formato das questões objetivas desta fase — quantas são, se são de múltipla escolha, se há questões com mais de uma resposta correta, etc.</p>
       </div>
       <div class="card">
         <span class="card-icon">📝</span>
         <h3>Tarefa da fase</h3>
-        <!-- EDITE: tipo de tarefa -->
+        <!-- EDITE: tipo de tarefa
         <p>Descreva o formato da tarefa desta fase — se é texto dissertativo, produção de imagem, análise de fonte, etc. Inclua extensão esperada se souber.</p>
       </div>
       <div class="card">
         <span class="card-icon">⚖️</span>
         <h3>Peso na classificação</h3>
-        <!-- EDITE: peso relativo -->
+        <!-- EDITE: peso relativo
         <p>Oriente os alunos sobre o peso desta fase na classificação geral e o que costuma fazer diferença para avançar.</p>
       </div>
     </div>
@@ -272,6 +312,7 @@
 
     <ul class="topic-list">
       <!-- EDITE: tópicos específicos. Duplique <li> conforme necessário -->
+      <!--
       <li>
         <strong>Período Colonial (séc. XVI–XVIII)</strong>
         Descrição do que costuma ser cobrado dentro deste período — povos indígenas, colonização, escravidão, etc.
@@ -324,9 +365,10 @@
     <div class="alert alert-info">
       <div class="alert-title">📌 Sobre a tarefa</div>
       <!-- EDITE: orientações específicas da tarefa -->
-      Explique aqui o que a tarefa desta fase costuma pedir, o que os avaliadores valorizam, e o que a equipe deve evitar.
+      A tarefa desta fase consiste num <strong>questionário socioeconômico</strong> que todos os alunos devem realizar individualmente. Reservem um tempo adequado — o questionário é extenso e demanda atenção.
     </div>
 
+    <!--
     <div class="card-grid">
       <div class="card">
         <span class="card-icon">🎯</span>
@@ -359,6 +401,7 @@
       <li onclick="toggleCheck(this)"><span class="check-box"></span><span>Li todas as fontes fornecidas</span></li>
       <li onclick="toggleCheck(this)"><span class="check-box"></span><span>Dividi as tarefas com a equipe</span></li>
       <!-- EDITE: adicione itens específicos desta fase -->
+      <!--
       <li onclick="toggleCheck(this)"><span class="check-box"></span><span>[Item específico desta fase — edite conforme necessário]</span></li>
       <!-- Itens de envio -->
       <li onclick="toggleCheck(this)"><span class="check-box"></span><span>Todas as questões foram respondidas</span></li>
